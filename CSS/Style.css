@@ -1,0 +1,390 @@
+body,head{
+    background-color: rgb#ffffff;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Nav, logo and  Menu Styles*/
+header{
+    background-color: #000f7f;
+    padding: 1rem 0;
+}
+
+nav{
+    width: 100vw auto;
+    height: 15vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+/*Code for the logo*/
+svg{
+    fill:#000f7f;
+    stroke: rgb(255, 255, 255);
+    font-family:monospace;
+}
+
+
+.menu>li, menu>a{
+    display: inline-block;
+    position: relative;
+    padding: 15;
+}
+
+ul{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    padding: 1rem;
+    position: relative;
+    flex-direction: row;
+    color: #ffffff;
+    display:block;
+    transition: background-color .10s ease, color.10s;
+}
+/*Menu Effects*/
+
+.menu a:hover{
+    background-color: rgb(140, 222, 247);
+    color: fff;
+}
+
+.menu li{
+    position: relative;
+}
+/*Submenus levels styles*/
+.submenu{
+    position: absolute;
+    background-color:rgb(140, 222, 247) ;
+    width: 100px;
+    left:0;
+    display:none;
+}
+.submenu2{
+    position: absolute;
+    background-color:rgb(140, 222, 247) ;
+    width: 100%;
+    left:100%;
+    top:0;
+    display:none;
+}
+
+/*Submenu effects*/
+.menu li:hover>.submenu{
+    display:block;
+}
+.submenu li:hover>.submenu2{
+    display:block;
+}
+.submenu li:hover>.submenu3{
+    display: block;
+}
+
+
+/*index page*/
+
+
+h1{
+    margin-top: 5vh;
+    text-align: center;
+    font-family:url(../Fonts/walking_broadway/WalkingBroadwayDEMO.otf);
+}
+h2{
+    text-align: center;
+}
+.container{
+    display:flex;
+    justify-content:space-evenly;
+
+}
+
+.boxone{
+    img{
+        height:70vh;
+        width: 20vw;
+    }
+}
+.boxtwo{
+    img{
+        height:70vh;
+        width: 20vw;
+    }
+}
+.boxthree{
+    img{
+        height:70vh;
+        width: 20vw;
+    }
+}
+
+/*LOGIN BUTTON STYLE*/
+.loginbtn{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #8cdef7;
+    border:2px solid rgb(140, 222, 247);
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 0 15px;
+    color:black;
+    cursor:pointer;
+   
+}
+
+/*All the code for Lisbon.html will be find below this section*/
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Lisone{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+    background-image: url(../IMAGES/WhatsApp\ Image\ 2024-11-08\ at\ 22.41.07_5a9a0afb.jpg);
+    background-position:center;
+}
+.Listwo{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+}
+
+
+/*All the code for PortugalCulinary.html will be find below this section*/
+.CContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.one{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+    background-image: url(../IMAGES/best-pastel-de-nata-in-lisbon-scaled.jpg);
+    background-position: bottom;
+}
+
+.two{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+    background-image: url(../IMAGES/natas.jpg);
+    background-position: center;
+}
+.three{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+    background-image: url(../IMAGES/cozido-a-portuguesa-recipe-819x1024.jpg);
+    background-position: bottom;
+}
+/*All the Code for MonumentsPortugal.html will be found below*/
+.MonuPortContainer{
+    height: auto;
+    display: flex;
+    margin-left: 150px;
+    justify-content: space-evenly;
+
+}
+.PortugalOne{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+    background-image: url(../IMAGES/Lisbonne_-_Padrão_dos_Descobrimentos_-_Closeup.jpg);
+    background-position: right;
+}
+
+.PortugalTwo{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+    background-image: url(../IMAGES/mosteiro.jpg);
+    background-position: right;
+}
+.PortugalThree{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+    background-image: url(../IMAGES/tower.png);
+    background-position: right;
+}
+
+
+/*All the Code for PuertoDeLaCruz.html will be found below*/
+/*All the Code for PDLCCulinary.html will be found below*/
+/*All the Code for MonumentsPDLC.html will be found below*/
+/*All the Code for Seville.html will be found below*/
+/*All the Code for SevilleCulinary.html will be found below*/
+.SCContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Sone{
+    height: 70vh;
+    width: 20vw;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+.Stwo{
+    height: 70vh;
+    width: 20vw;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+.Sthree{
+    height: 70vh;
+    width: 20vw;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+/*All the Code for MonumentsSeville.html will be found below*/
+
+footer{
+    display:bottom;
+    background-color: #000f7f;
+    height: 10vh;
+}
+/*All the code for Arad.html will be find below this section*/
+.Romaniab{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Romania1{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+    background-image: url(../IMAGES/arad-romania-2.jpg);
+    background-position:center;
+
+}
+.Romania2{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+}
+/*All the code for CulinaryArad.html will be found below*/
+.AradContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Arad1{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+    background-image: url(../IMAGES/Bors-cu-perisoare-ciorba-de-perisoare-simonacallas.jpg);
+    background-position: center;
+}
+
+.Arad2{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+    background-image: url(../IMAGES/cabbage-rolls-1-6sarmale.jpg);
+    background-position: center;
+}
+.Arad3{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+    background-image: url(../IMAGES/fried-carp-fillets-with.jpg);
+    background-position: bottom;
+}
+/*All the Code for MonumentsRomania.html will be found below*/
+.MonuRomaniaContainer{
+    height: auto;
+    display: flex;
+    margin-left: 150px;
+    justify-content: space-evenly;
+
+}
+.RomOne{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+    background-image: url(../IMAGES/statuia-libertatii-mg-7185.jpg);
+    background-position: center;
+}
+
+.RomTwo{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+    background-image: url(../IMAGES/aradcc.jpg);
+    background-position: center;
+}
+.RomThree{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+    background-image: url(../IMAGES/travel-to-Hunedoara-Castle-1024x585.jpg);
+    background-position: top;
+}
+
+/*All the Code for AntalyaMonuments.html will be found below*/
+.MonuAntalyaContainer{
+    height: auto;
+    display: flex;
+    margin-left: 150px;
+    justify-content: space-evenly;
+
+}
+.AntalyaOne{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+    background-image: url(../IMAGES/oldcity.jpg);
+    background-position: cover;
+}
+
+.AntalyaTwo{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+    background-image: url(../IMAGES/Ancient-Ruines-in-Antalya.jpg);
+    background-position: center;
+}
+.AntalyaThree{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+    background-image: url(../IMAGES/kaleici-old-town-antalya.jpg);
+    background-position: right;
+}
+/*All the code for CulinaryArad.html will be found below*/
+.AntContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Antalya1{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+    background-image: url(../IMAGES/super-food-salmon-salad-hero.jpg);
+    background-position: center;
+}
+
+.Antalya2{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+    background-image: url(../IMAGES/Breakfast-In-Turkey.jpg);
+    background-position: center;
+}
+.Antalya3{
+    height: 70vh;
+    width: 20vw;
+    margin-bottom: 30px;
+    background-image: url(../IMAGES/turkish-delight-FINAL-36.jpg);
+    background-position: center;
+}
